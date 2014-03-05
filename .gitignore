@@ -1,0 +1,8 @@
+# Windows:
+Thumb.db
+ethumbs.db
+Desktop.ini
+
+# project
+build
+build_vc
