@@ -1,3 +1,0 @@
-D:/msys32/home/Li/src/graph_tool/build/CMakeFiles/gt_algorithm.dir
-D:/msys32/home/Li/src/graph_tool/build/CMakeFiles/gt_common.dir
-D:/msys32/home/Li/src/graph_tool/build/CMakeFiles/test.dir
