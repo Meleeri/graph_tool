@@ -3,20 +3,19 @@
 
 #include <wx/wx.h>
 #include <wx/dirctrl.h>
-#include <wx/glcanvas.h>
+
+#include "gtcanvas.h"
 
 class MainFrame: public wxFrame {
 public:
     MainFrame(const wxString& title);
     ~MainFrame();
-
-    int InitGL();
 private:
     wxBoxSizer *m_SizerAll;
     wxBoxSizer *m_SizerLeft;
     wxBoxSizer *m_SizerRight;
 
-    wxGLCanvas *m_GLCanvas;
+    GTCanvas *m_GTCanvas;
     wxGLContext *m_GLContext;
     wxGenericDirCtrl *m_DirTree;
 };

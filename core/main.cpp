@@ -12,6 +12,5 @@ bool GTApp::OnInit(){
     MainFrame *mainframe = new MainFrame(wxT("Hello"));
 
     mainframe->Show(true);
-    mainframe->InitGL();
     return true;
 }
