@@ -16,7 +16,6 @@ MainFrame::MainFrame(const wxString &title):
 
     m_SizerRight = new wxBoxSizer(wxVERTICAL);
     m_GTCanvas = new GTCanvas(this, wxSize(500, 500));
-    m_GLContext = new wxGLContext(m_GTCanvas);
 
     m_SizerRight->Add(m_GTCanvas, 1, wxEXPAND, 0);
 
@@ -32,7 +31,6 @@ MainFrame::MainFrame(const wxString &title):
 MainFrame::~MainFrame(){
     delete m_DirTree;
     delete m_GTCanvas;
-    delete m_GLContext;
 
     delete m_SizerLeft;
     delete m_SizerRight;

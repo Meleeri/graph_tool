@@ -16,7 +16,6 @@ private:
     wxBoxSizer *m_SizerRight;
 
     GTCanvas *m_GTCanvas;
-    wxGLContext *m_GLContext;
     wxGenericDirCtrl *m_DirTree;
 };
 

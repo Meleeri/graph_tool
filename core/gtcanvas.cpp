@@ -3,25 +3,32 @@
 #define FREEGLUT_STATIC
 #include <GL/glut.h>
 
+#include <wx/wx.h>
+
 #include "gtcanvas.h"
 #include "glutil.h"
 
 GTCanvas::GTCanvas(wxWindow *window, const wxSize& size):
-	wxGLCanvas(window, wxID_ANY, (const int*)0, wxDefaultPosition, size, wxFULL_REPAINT_ON_RESIZE, L"GLCanvas", wxNullPalette) {
-
+	wxGLCanvas(window, wxID_ANY, (const int*)0, wxDefaultPosition, size, wxFULL_REPAINT_ON_RESIZE, L"GLCanvas", wxNullPalette) 
+{
+    m_GLContext = new wxGLContext(this);
+    Bind(wxEVT_PAINT, &GTCanvas::OnPaint, this);
 }
 
 GTCanvas::~GTCanvas(){
+    delete m_GLContext;
 }
 
-void GTCanvas::OnPaint(wxPaintEvent& event){
+void GTCanvas::OnPaint(wxPaintEvent& WXUNUSED(event)){
     Render();
 }
 
 int GTCanvas::Render(){
     wxPaintDC(this);
-    if (!GetContext())
+    if(!GetContext()){
+        wxMessageBox(wxT("Initializing wxGL Failed!"));
         return -1;
+	}
     SetCurrent();
 
     glClearColor(0.0, 0.0, 0.0, 0.0);
