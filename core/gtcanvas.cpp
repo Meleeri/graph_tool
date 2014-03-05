@@ -25,7 +25,7 @@ void GTCanvas::OnPaint(wxPaintEvent& WXUNUSED(event)){
 
 void GTCanvas::Render(){
     wxPaintDC(this);
-    SetCurrent();
+    SetCurrent(*m_GLContext);
 
     glClearColor(0.0, 0.0, 0.0, 0.0);
 
@@ -45,7 +45,7 @@ void GTCanvas::Render(){
 
 // using a little of glut
     glColor4f(0,0,1,1);
-    glutWireTeapot(0.4);
+//    glutWireTeapot(0.4);
 
     glPopMatrix();
 
