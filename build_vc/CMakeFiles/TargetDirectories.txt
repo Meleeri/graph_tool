@@ -1,0 +1,5 @@
+D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/ALL_BUILD.dir
+D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/ZERO_CHECK.dir
+D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/graph_tool.dir
+D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/gt_algorithm.dir
+D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/gt_common.dir

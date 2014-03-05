@@ -1,0 +1,115 @@
+The system is: Windows - 6.2 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 11.0.50727.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: CompilerIdC, 配置: Debug Win32 ------
+1>  CMakeCCompilerId.c
+1>  CompilerIdC.vcxproj -> D:\msys32\home\Li\src\graph_tool\build_vc\CMakeFiles\2.8.12.1\CompilerIdC\.\CompilerIdC.exe
+1>  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/2.8.12.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 11.0.50727.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: CompilerIdCXX, 配置: Debug Win32 ------
+1>  CMakeCXXCompilerId.cpp
+1>  CompilerIdCXX.vcxproj -> D:\msys32\home\Li\src\graph_tool\build_vc\CMakeFiles\2.8.12.1\CompilerIdCXX\.\CompilerIdCXX.exe
+1>  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2113945879
+
+Microsoft (R) Microsoft Visual Studio 2012 11.0.50727.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec2113945879, 配置: Debug Win32 ------
+1>  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2113945879.dir\Debug\\" /Fd"cmTryCompileExec2113945879.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt testCCompiler.c
+1>  
+1>  testCCompiler.c
+1>  cmTryCompileExec2113945879.vcxproj -> D:\msys32\home\Li\src\graph_tool\build_vc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2113945879.exe
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1791725617
+
+Microsoft (R) Microsoft Visual Studio 2012 11.0.50727.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec1791725617, 配置: Debug Win32 ------
+1>  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1791725617.dir\Debug\\" /Fd"cmTryCompileExec1791725617.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt "D:\tools\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+1>  
+1>  CMakeCCompilerABI.c
+1>  cmTryCompileExec1791725617.vcxproj -> D:\msys32\home\Li\src\graph_tool\build_vc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1791725617.exe
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec327562086
+
+Microsoft (R) Microsoft Visual Studio 2012 11.0.50727.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec327562086, 配置: Debug Win32 ------
+1>  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec327562086.dir\Debug\\" /Fd"cmTryCompileExec327562086.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt testCXXCompiler.cxx
+1>  
+1>  testCXXCompiler.cxx
+1>  cmTryCompileExec327562086.vcxproj -> D:\msys32\home\Li\src\graph_tool\build_vc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec327562086.exe
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/msys32/home/Li/src/graph_tool/build_vc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec595768667
+
+Microsoft (R) Microsoft Visual Studio 2012 11.0.50727.1 版。
+版权所有(C) Microsoft Corp。保留所有权利。
+1>------ 已启动生成: 项目: cmTryCompileExec595768667, 配置: Debug Win32 ------
+1>  用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec595768667.dir\Debug\\" /Fd"cmTryCompileExec595768667.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\tools\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>  cmTryCompileExec595768667.vcxproj -> D:\msys32\home\Li\src\graph_tool\build_vc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec595768667.exe
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+
+

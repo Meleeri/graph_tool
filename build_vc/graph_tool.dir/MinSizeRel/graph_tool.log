@@ -1,0 +1,35 @@
+﻿生成启动时间为 2014/3/5 0:06:17。
+     1>项目“D:\msys32\home\Li\src\graph_tool\build_vc\graph_tool.vcxproj”在节点 3 上(Build 个目标)。
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\msys32\home\Li\src\graph_tool\build_vc\MinSizeRel\graph_tool.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib MinSizeRel\gt_common.lib MinSizeRel\gt_algorithm.lib D:\ext\other\Graphviz\2.28\lib\release\lib\gvc.lib D:\ext\other\Graphviz\2.28\lib\release\lib\graph.lib D:\ext\other\Graphviz\2.28\lib\release\lib\gvplugin_core.lib D:\ext\other\Graphviz\2.28\lib\release\lib\gvplugin_gd.lib D:\ext\other\Graphviz\2.28\lib\release\lib\gvplugin_dot_layout.lib D:\ext\other\Graphviz\2.28\lib\release\lib\gvplugin_neato_layout.lib D:\ext\wxWidgets\lib\vc_lib\wxmsw30u_core.lib D:\ext\wxWidgets\lib\vc_lib\wxbase30u.lib D:\ext\wxWidgets\lib\vc_lib\wxmsw30u_gl.lib D:\ext\wxWidgets\lib\vc_lib\wxpng.lib D:\ext\wxWidgets\lib\vc_lib\wxtiff.lib D:\ext\wxWidgets\lib\vc_lib\wxjpeg.lib D:\ext\wxWidgets\lib\vc_lib\wxzlib.lib D:\ext\wxWidgets\lib\vc_lib\wxregexu.lib D:\ext\wxWidgets\lib\vc_lib\wxexpat.lib opengl32.lib glu32.lib winmm.lib comctl32.lib rpcrt4.lib wsock32.lib D:\ext\vs2012\lib\glew32s.lib opengl32.lib glu32.lib winmm.lib comctl32.lib rpcrt4.lib wsock32.lib D:\ext\vs2012\lib\glew32s.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/msys32/home/Li/src/graph_tool/build_vc/MinSizeRel/graph_tool.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/msys32/home/Li/src/graph_tool/build_vc/MinSizeRel/graph_tool.lib" /MACHINE:X86 /SAFESEH  /machine:X86 graph_tool.dir\MinSizeRel\main.obj
+         graph_tool.dir\MinSizeRel\mainframe.obj
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp__glewInit@0，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewBindBuffer，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewBufferData，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewGenBuffers，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewAttachShader，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewCompileShader，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewCreateProgram，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewCreateShader，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewDeleteShader，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewDisableVertexAttribArray，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewEnableVertexAttribArray，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewGetProgramInfoLog，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewGetProgramiv，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewGetShaderInfoLog，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewGetShaderiv，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewGetUniformLocation，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewLinkProgram，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewShaderSource，该符号在函数 "unsigned int __cdecl LoadShaders(char const *,char const *)" (?LoadShaders@@YAIPBD0@Z) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewUniformMatrix4fv，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewUseProgram，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewVertexAttribPointer，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewBindVertexArray，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp____glewGenVertexArrays，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>mainframe.obj : error LNK2019: 无法解析的外部符号 __imp__glewExperimental，该符号在函数 "private: int __thiscall MainFrame::InitGL(void)" (?InitGL@MainFrame@@AAEHXZ) 中被引用
+     1>D:\msys32\home\Li\src\graph_tool\build_vc\MinSizeRel\graph_tool.exe : fatal error LNK1120: 24 个无法解析的外部命令
+     1>已完成生成项目“D:\msys32\home\Li\src\graph_tool\build_vc\graph_tool.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.05

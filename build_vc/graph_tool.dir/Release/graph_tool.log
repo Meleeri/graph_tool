@@ -1,0 +1,15 @@
+﻿生成启动时间为 2014/3/5 0:34:49。
+     1>项目“D:\msys32\home\Li\src\graph_tool\build_vc\graph_tool.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:/ext/vs2012/include /ID:/msys32/home/Li/src/graph_tool/common /ID:/msys32/home/Li/src/graph_tool/algorithm /ID:/ext/other/Graphviz/2.28/include /ID:/ext/other/Graphviz/2.28/include/graphviz /ID:/ext/wxWidgets/lib/vc_lib/mswu /ID:/ext/wxWidgets/include /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /Zc:wchar_t /Zc:forScope /GR /Fo"graph_tool.dir\Release\\" /Fd"graph_tool.dir\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\core\main.cpp
+         main.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\msys32\home\Li\src\graph_tool\build_vc\Release\graph_tool.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Release\gt_common.lib Release\gt_algorithm.lib D:\ext\other\Graphviz\2.28\lib\release\lib\gvc.lib D:\ext\other\Graphviz\2.28\lib\release\lib\graph.lib D:\ext\other\Graphviz\2.28\lib\release\lib\gvplugin_core.lib D:\ext\other\Graphviz\2.28\lib\release\lib\gvplugin_gd.lib D:\ext\other\Graphviz\2.28\lib\release\lib\gvplugin_dot_layout.lib D:\ext\other\Graphviz\2.28\lib\release\lib\gvplugin_neato_layout.lib D:\ext\wxWidgets\lib\vc_lib\wxmsw30u_core.lib D:\ext\wxWidgets\lib\vc_lib\wxbase30u.lib D:\ext\wxWidgets\lib\vc_lib\wxmsw30u_gl.lib D:\ext\wxWidgets\lib\vc_lib\wxpng.lib D:\ext\wxWidgets\lib\vc_lib\wxtiff.lib D:\ext\wxWidgets\lib\vc_lib\wxjpeg.lib D:\ext\wxWidgets\lib\vc_lib\wxzlib.lib D:\ext\wxWidgets\lib\vc_lib\wxregexu.lib D:\ext\wxWidgets\lib\vc_lib\wxexpat.lib opengl32.lib glu32.lib winmm.lib comctl32.lib rpcrt4.lib wsock32.lib D:\ext\vs2012\lib\glew32s.lib opengl32.lib glu32.lib winmm.lib comctl32.lib rpcrt4.lib wsock32.lib D:\ext\vs2012\lib\glew32s.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/msys32/home/Li/src/graph_tool/build_vc/Release/graph_tool.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/msys32/home/Li/src/graph_tool/build_vc/Release/graph_tool.lib" /MACHINE:X86 /SAFESEH  /machine:X86 graph_tool.dir\Release\main.obj
+         graph_tool.dir\Release\mainframe.obj
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         graph_tool.vcxproj -> D:\msys32\home\Li\src\graph_tool\build_vc\Release\graph_tool.exe
+     1>已完成生成项目“D:\msys32\home\Li\src\graph_tool\build_vc\graph_tool.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.66
