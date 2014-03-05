@@ -23,24 +23,24 @@ void GTCanvas::OnPaint(wxPaintEvent& WXUNUSED(event)){
     Render();
 }
 
-int GTCanvas::Render(){
+void GTCanvas::Render(){
     wxPaintDC(this);
-    if(!GetContext()){
-        wxMessageBox(wxT("Initializing wxGL Failed!"));
-        return -1;
-	}
     SetCurrent();
 
     glClearColor(0.0, 0.0, 0.0, 0.0);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+    glEnable(GL_TEXTURE_2D);   // textures
+    glLoadIdentity();
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glViewport(0, 0, (GLint)GetSize().x, (GLint)GetSize().y);
+
     glBegin(GL_POLYGON);
     glColor3f(1.0F, 0.0F, 0.0F);
     glVertex2f(0.1F, 0.1F);
     glVertex2f(-0.1F, 0.1F);
     glVertex2f(-0.1F, -0.1F);
     glVertex2f(0.1F, -0.1F);
+
     glEnd();
 
 // using a little of glut
@@ -51,5 +51,4 @@ int GTCanvas::Render(){
 
     glFlush();
     SwapBuffers();
-    return 0;
 }

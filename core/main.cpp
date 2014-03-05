@@ -9,8 +9,6 @@ public:
 IMPLEMENT_APP(GTApp)
 
 bool GTApp::OnInit(){
-    MainFrame *mainframe = new MainFrame(wxT("Hello"));
-
-    mainframe->Show(true);
+    new MainFrame(wxT("Hello"));
     return true;
 }

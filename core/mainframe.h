@@ -11,10 +11,6 @@ public:
     MainFrame(const wxString& title);
     ~MainFrame();
 private:
-    wxBoxSizer *m_SizerAll;
-    wxBoxSizer *m_SizerLeft;
-    wxBoxSizer *m_SizerRight;
-
     GTCanvas *m_GTCanvas;
     wxGenericDirCtrl *m_DirTree;
 };

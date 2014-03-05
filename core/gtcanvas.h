@@ -8,7 +8,7 @@ public:
     GTCanvas(wxWindow *parent, const wxSize& size);
     ~GTCanvas();
     void OnPaint(wxPaintEvent& WXUNUSED(event));
-    int Render();
+    void Render();
 private:
     wxGLContext *m_GLContext;
 };
