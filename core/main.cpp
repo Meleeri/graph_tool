@@ -11,7 +11,6 @@ IMPLEMENT_APP(GTApp)
 
 bool GTApp::OnInit(){
     glutInit(&argc, argv);
-
     new MainFrame(wxT("Hello"));
     return true;
 }
