@@ -23,6 +23,8 @@ void GTCanvas::OnPaint(wxPaintEvent& WXUNUSED(event)){
 void GTCanvas::Render(){
     wxPaintDC dc(this);
     SetCurrent(*m_GLContext);
+
+    /*
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     glMatrixMode(GL_MODELVIEW);
@@ -52,6 +54,28 @@ void GTCanvas::Render(){
     glVertex3f(-0.5f, -0.5f, -0.5f); glVertex3f(-0.5f, -0.5f, 0.5f);
     glVertex3f(-0.5f, 0.5f, 0.5f); glVertex3f(-0.5f, 0.5f, -0.5f);
     glEnd();
+    glFlush();
+    SwapBuffers();
+    */
+
+    glViewport(0, 0, (GLint)GetSize().x, (GLint)GetSize().y);
+
+    glBegin(GL_POLYGON);
+    glColor3f(1.0, 0.0, 0.0);
+    glVertex2f(0.1, 0.1);
+    glVertex2f(-0.1, 0.1);
+    glVertex2f(-0.1, -0.1);
+    glVertex2f(0.1, -0.1);
+    glEnd();
+
+// using a little of glut
+    glColor4f(0,0,1,1);
+
+    glPushMatrix();
+    glScalef (0.5, 1.2, 0.5);  
+    glutWireCube(0.4);
+    glPopMatrix();
+
     glFlush();
     SwapBuffers();
 }
