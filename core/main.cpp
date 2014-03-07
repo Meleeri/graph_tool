@@ -1,5 +1,6 @@
-#include <wx/wx.h>
+#define FREEGLUT_STATIC
 #include <GL/glut.h>
+#include <wx/wx.h>
 #include "mainframe.h"
 
 class GTApp: public wxApp {

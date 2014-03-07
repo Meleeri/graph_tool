@@ -40,7 +40,7 @@ void GTCanvas::Render(){
     glColor4f(0,0,1,1);
 
     glPushMatrix();
-    glutWireCube(0.4);
+    glutWireTeapot(0.4);
     glPopMatrix();
 
     glFlush();

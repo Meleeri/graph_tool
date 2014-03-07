@@ -1,24 +1,24 @@
-#define GLEW_STATIC
-
 #include "mainframe.h"
 
 using namespace std;
-
 
 MainFrame::MainFrame(const wxString &title):
     wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(800, 500)),
     m_DirTree(new wxGenericDirCtrl(this, wxID_ANY, wxDirDialogDefaultFolderStr, wxDefaultPosition, wxSize(100, 500), 128L, wxEmptyString, 0, wxTreeCtrlNameStr)),
     m_GTCanvas(new GTCanvas(this, wxSize(500, 500)))
 {
-    wxMenu *menus[MAINFRAME_MENU_COUNT];
-    for (int i = 0; i < MAINFRAME_MENU_COUNT; ++ i){
+	wxString menuTitles[] = {"Exit", "About"};
+    const int menu_count = 2;
+
+    wxMenu *menus[menu_count];
+    for (int i = 0; i < menu_count; ++ i){
         menus[i] = new wxMenu;
     }
     menus[0]->Append(wxID_EXIT, wxT("Exit"));
 
     menus[0]->Bind(wxEVT_COMMAND_MENU_SELECTED, &MainFrame::OnExit, this, wxID_EXIT);
 
-    wxMenuBar *menuBar = new wxMenuBar(MAINFRAME_MENU_COUNT, menus, m_MenuTitles);
+    wxMenuBar *menuBar = new wxMenuBar(menu_count, menus, menuTitles);
     SetMenuBar(menuBar);
 
 
