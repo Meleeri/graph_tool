@@ -47,5 +47,5 @@ ADD_LIBRARY(gt_util ${GT_UTIL_SRC})
 add_executable(${CMAKE_PROJECT_NAME} WIN32 ${CORE_SRC})
 target_link_libraries(${CMAKE_PROJECT_NAME} gt_common gt_algorithm gt_util
     ${GVC} ${GRAPH} ${GVPLUGIN_CORE} ${GVPLUGIN_GD} ${GVPLUGIN_DOT_LAYOUT} ${GVPLUGIN_NEATO_LAYOUT}
-    ${wxWidgets_LIBRARIES} ${GLEW_LIBRARIES} opengl32 glu32)
+    ${wxWidgets_LIBRARIES} ${GLEW_LIBRARIES} glu32 opengl32)
 add_dependencies(${CMAKE_PROJECT_NAME} gt_common gt_algorithm)
