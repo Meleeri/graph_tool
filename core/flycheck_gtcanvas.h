@@ -10,7 +10,7 @@ class GTCanvas: public wxGLCanvas {
     void OnPaint(wxPaintEvent& WXUNUSED(event));
     void Render();
  private:
-    wxGLContext *m_GLContext;
+    wxpGLContext *m_GLContext;
 };
 
 #endif
